@@ -16,7 +16,7 @@
     </ul>
 </nav>
 <div class="users view large-9 medium-8 columns content">
-    <h3><?= h($user->id) ?></h3>
+    <h3><?= h($user->username) ?></h3>
     <table class="vertical-table">
         <tr>
             <th scope="row"><?= __('Username') ?></th>
@@ -32,23 +32,11 @@
         </tr>
         <tr>
             <th scope="row"><?= __('Type') ?></th>
-            <td><?= $this->Number->format($user->type) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($user->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($user->modified) ?></td>
+            <td><?= $this->Number->format($user->type) == 1 ? "Propriétaire" : "Utilisatuer régulier" ?></td>
         </tr>
     </table>
-    <div class="row">
-        <h4><?= __('Password') ?></h4>
-        <?= $this->Text->autoParagraph(h($user->password)); ?>
-    </div>
     <div class="related">
-        <h4><?= __('Related Stores') ?></h4>
+        <h4><?= __('Owned stores') ?></h4>
         <?php if (!empty($user->stores)): ?>
         <table cellpadding="0" cellspacing="0">
             <tr>
