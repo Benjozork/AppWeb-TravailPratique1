@@ -66,6 +66,8 @@
             </tr>
             <?php endforeach; ?>
         </table>
+        <?php else: ?>
+            <center><h5><?= __("No owned stores") ?></h5></center>
         <?php endif; ?>
     </div>
 </div>

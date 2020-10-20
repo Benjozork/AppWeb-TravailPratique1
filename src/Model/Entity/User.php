@@ -2,6 +2,7 @@
 namespace App\Model\Entity;
 
 use Cake\Auth\DefaultPasswordHasher;
+use Cake\I18n\FrozenTime;
 use Cake\ORM\Entity;
 
 /**
@@ -12,10 +13,10 @@ use Cake\ORM\Entity;
  * @property string $email
  * @property string $password
  * @property int $type
- * @property \Cake\I18n\FrozenTime $created
- * @property \Cake\I18n\FrozenTime $modified
+ * @property FrozenTime $created
+ * @property FrozenTime $modified
  *
- * @property \App\Model\Entity\Store[] $stores
+ * @property Store[] $stores
  */
 class User extends Entity
 {
