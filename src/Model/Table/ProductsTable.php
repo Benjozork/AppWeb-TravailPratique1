@@ -41,6 +41,8 @@ class ProductsTable extends Table
             'targetForeignKey' => 'store_id',
             'joinTable' => 'products_stores',
         ]);
+
+        $this->addBehavior('Translate', ['fields' => ['name', 'description']]);
     }
 
     /**
