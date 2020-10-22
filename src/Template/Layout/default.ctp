@@ -48,8 +48,17 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                 <?php if (is_null($this->request->getSession()->read("Auth.User.username"))): ?>
                     <li><?= $this->Html->link(__('Login'), ['controllers' => "Users", 'action' => "login"]) ?></li>
+                    <li><?= $this->Html->link('Register', ['controllers' => "Users", 'action' => "add"]) ?></li>
                 <?php else: ?>
                     <li><?= $this->Html->link(__('Logout'), ['controllers' => "Users", 'action' => "logout"]) ?></li>
+                <?php endif; ?>
+
+                <?php if ($this->Session->read('Config.language') == 'en_US' || is_null($this->Session->read('Config.language'))): ?>
+                    <li><?= $this->Html->link('Français', ['action' => 'changeLang', 'fr_CA'], ['escape' => false]) ?></li>
+                <?php elseif ($this->Session->read('Config.language') == 'fr_CA'):; ?>
+                    <li><?= $this->Html->link('Español', ['action' => 'changeLang', 'es_ES'], ['escape' => false]) ?></li>
+                <?php elseif ($this->Session->read('Config.language') == 'es_ES'):; ?>
+                   <li><?= $this->Html->link('English', ['action' => 'changeLang', 'en_US'], ['escape' => false]) ?></li>
                 <?php endif; ?>
             </ul>
         </div>
