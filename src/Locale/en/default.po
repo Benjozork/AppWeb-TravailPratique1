@@ -299,7 +299,7 @@ msgstr "Description"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:39
 msgid "Related Stores"
-msgstr "Related Stores"
+msgstr "Stores where this product is sold"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:46
 #: Files/Ampps/www//Template/Users/view.ctp:46
@@ -366,11 +366,14 @@ msgstr "User"
 
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:53
 msgid "Related Products"
-msgstr "Related Products"
+msgstr "Products sold here"
 
 #: C:/Program Files/Ampps/www//Template/Users/add.ctp:20
 msgid "Register User"
 msgstr "Register User"
+
+msgid "Register"
+msgstr "Register"
 
 #: C:/Program Files/Ampps/www//Template/Users/edit.ctp:24
 #: Files/Ampps/www//Template/Users/view.ctp:10
@@ -412,3 +415,12 @@ msgstr "Owned stores"
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:70
 msgid "No owned stores"
 msgstr "No owned stores"
+
+msgid "Product images"
+msgstr "Product images"
+
+msgid "New product image"
+msgstr "New product image"
+
+msgid "List Product Images"
+msgstr "List Product Images"

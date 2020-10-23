@@ -6,6 +6,8 @@
 ?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
+        <li><?= $this->Html->link(__('About'), ['controller' => 'Pages', 'action' => 'display', 'about']) ?></li>
+
         <li class="heading"><?= __('Actions') ?></li>
 
         <span class="user-type">
@@ -18,7 +20,6 @@
             endif; ?>
         </span>
 
-        <li><?= $this->Html->link(__('List Files'), ['action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('List Products'), ['controller' => 'Products', 'action' => 'index']) ?></li>
 
         <!-- Ne pas afficher si pas propriétaire -->

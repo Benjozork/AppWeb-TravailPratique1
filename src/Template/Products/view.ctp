@@ -59,6 +59,14 @@
         <?= $this->Text->autoParagraph(h($product->description)); ?>
     </div>
     <div class="related">
+        <h4><?= __('Product images') ?></h4>
+        <?php if (!empty($product->files)): ?>
+            <?php foreach ($product->files as $file): ?>
+                a
+            <?php endforeach; ?>
+        <?php endif; ?>
+    </div>
+    <div class="related">
         <h4><?= __('Related Stores') ?></h4>
         <?php if (!empty($product->stores)): ?>
         <table cellpadding="0" cellspacing="0">

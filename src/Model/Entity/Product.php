@@ -11,6 +11,7 @@ use Cake\ORM\Entity;
  * @property string $description
  * @property float $price
  *
+ * @property \App\Model\Entity\File[] $files
  * @property \App\Model\Entity\Store[] $stores
  */
 class Product extends Entity

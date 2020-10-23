@@ -301,7 +301,7 @@ msgstr "Descriptions"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:39
 msgid "Related Stores"
-msgstr "Magasins reliés"
+msgstr "Magasins vendant ce produit"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:46
 #: Files/Ampps/www//Template/Users/view.ctp:46
@@ -368,11 +368,14 @@ msgstr "Utilisateur"
 
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:53
 msgid "Related Products"
-msgstr "Produits reliés"
+msgstr "Produits vendus"
 
 #: C:/Program Files/Ampps/www//Template/Users/add.ctp:20
 msgid "Register User"
 msgstr "Enrigistrement"
+
+msgid "Register"
+msgstr "S'enrigistrer"
 
 #: C:/Program Files/Ampps/www//Template/Users/edit.ctp:24
 #: Files/Ampps/www//Template/Users/view.ctp:10
@@ -459,3 +462,12 @@ msgstr "Vous êtes un responsable de magasin"
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:17
 msgid "You are a store manager"
 msgstr "Vous êtes un administrateur"
+
+msgid "Product images"
+msgstr "Images du produit"
+
+msgid "New product image"
+msgstr "Nouvelle image de produit"
+
+msgid "List Product Images"
+msgstr "Lister les images de produit"
