@@ -41,6 +41,11 @@ class ProductsTable extends Table
             'targetForeignKey' => 'store_id',
             'joinTable' => 'products_stores',
         ]);
+        $this->belongsToMany('Files', [
+            'foreignKey' => 'product_id',
+            'targetForeignKey' => 'file_id',
+            'joinTable' => 'files_products',
+        ]);
 
         $this->addBehavior('Translate', ['fields' => ['name', 'description']]);
     }

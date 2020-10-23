@@ -13,89 +13,87 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.4.1\n"
 "Last-Translator: \n"
-"Language: fr_CA\n"
+"Language: en_US\n"
 
 #: C:/Program Files/Ampps/www//Controller/ProductsController.php:54
 #: Files/Ampps/www//Controller/ProductsController.php:79
 msgid "The product has been saved."
-msgstr "Le produit a été sauvegardé."
+msgstr "The product has been saved."
 
 #: C:/Program Files/Ampps/www//Controller/ProductsController.php:58
 #: Files/Ampps/www//Controller/ProductsController.php:83
 msgid "The product could not be saved. Please, try again."
-msgstr "Le produit n’a pas pu être enregistré. S’ll vous plaît, réessayez."
+msgstr "The product could not be saved. Please, try again."
 
 #: C:/Program Files/Ampps/www//Controller/ProductsController.php:101
 msgid "The product has been deleted."
-msgstr "Le produit a été supprimé."
+msgstr "The product has been deleted."
 
 #: C:/Program Files/Ampps/www//Controller/ProductsController.php:103
 msgid "The product could not be deleted. Please, try again."
-msgstr "Le produit n’a pas pu être supprimé. S’ll vous plaît, réessayez."
+msgstr "The product could not be deleted. Please, try again."
 
 #: C:/Program Files/Ampps/www//Controller/StoresController.php:57
 #: Files/Ampps/www//Controller/StoresController.php:83
 msgid "The store has been saved."
-msgstr "Le magasin a été sauvé."
+msgstr "The store has been saved."
 
 #: C:/Program Files/Ampps/www//Controller/StoresController.php:61
 #: Files/Ampps/www//Controller/StoresController.php:87
 msgid "The store could not be saved. Please, try again."
-msgstr "Le magasin n’a pas pu être sauvegardé. S’ll vous plaît, réessayez."
+msgstr "The store could not be saved. Please, try again."
 
 #: C:/Program Files/Ampps/www//Controller/StoresController.php:106
 msgid "The store has been deleted."
-msgstr "Le magasin a été supprimé."
+msgstr "The store has been deleted."
 
 #: C:/Program Files/Ampps/www//Controller/StoresController.php:108
 msgid "The store could not be deleted. Please, try again."
-msgstr "Le magasin n’a pas pu être supprimé. S’ll vous plaît, réessayez."
+msgstr "The store could not be deleted. Please, try again."
 
 #: C:/Program Files/Ampps/www//Controller/UsersController.php:72
 #: Files/Ampps/www//Controller/UsersController.php:98
 msgid "The user has been saved."
-msgstr "L'utilisateur a été sauvegardé."
+msgstr "The user has been saved."
 
 #: C:/Program Files/Ampps/www//Controller/UsersController.php:77
 #: Files/Ampps/www//Controller/UsersController.php:103
 msgid "The user could not be saved. Please, try again."
-msgstr ""
-"L'utilisateur n’a pas pu être sauvegardé. S’ll vous plaît, réessayez."
+msgstr "The user could not be saved. Please, try again."
 
 #: C:/Program Files/Ampps/www//Controller/UsersController.php:120
 msgid "The user has been deleted."
-msgstr "L'utilisateur a été supprimé."
+msgstr "The user has been deleted."
 
 #: C:/Program Files/Ampps/www//Controller/UsersController.php:122
 msgid "The user could not be deleted. Please, try again."
-msgstr ""
-"L'utilisateur n’a pas pu être sauvegardé. S’ll vous plaît, réessayez."
+msgstr "L'utilisateur n’a pas pu être sauvegardé. S’ll vous plaît, réessayez."
 
 #: C:/Program Files/Ampps/www//Controller/UsersController.php:143
 msgid "Incorrect e-mail or password"
-msgstr "Courriel ou mot de passe incorrect"
+msgstr "Incorrect e-mail or password"
 
 #: C:/Program Files/Ampps/www//Controller/UsersController.php:154
 msgid "You are now logged out"
-msgstr "Vous êtes maintenant déconnecté"
+msgstr "You are now logged out"
 
 #: C:/Program Files/Ampps/www//Template/Layout/default.ctp:50
 #: Files/Ampps/www//Template/Users/login.ctp:12
 #: Files/Ampps/www//Template/Users/login.ctp:17
 msgid "Login"
-msgstr "Se connecter"
+msgstr "Login"
 
 #: C:/Program Files/Ampps/www//Template/Layout/default.ctp:52
 msgid "Logout"
-msgstr "Se déconnecter"
+msgstr "Logout"
 
 #: C:/Program Files/Ampps/www//Template/Layout/error.ctp:36
 msgid "Error"
-msgstr "Erreur"
+msgstr "Error"
 
 #: C:/Program Files/Ampps/www//Template/Layout/error.ctp:44
 msgid "Back"
-msgstr "Retour"
+msgstr "Back"
 
 #: C:/Program Files/Ampps/www//Template/Products/add.ctp:9
 #: Files/Ampps/www//Template/Products/edit.ctp:9
@@ -126,7 +124,7 @@ msgstr "Actions"
 #: Files/Ampps/www//Template/Stores/index.ctp:13
 #: Files/Ampps/www//Template/Stores/view.ctp:16
 msgid "List Products"
-msgstr "Lister les produits"
+msgstr "List Products"
 
 #: C:/Program Files/Ampps/www//Template/Products/add.ctp:11
 #: Files/Ampps/www//Template/Products/edit.ctp:17
@@ -140,7 +138,7 @@ msgstr "Lister les produits"
 #: Files/Ampps/www//Template/Users/index.ctp:11
 #: Files/Ampps/www//Template/Users/view.ctp:14
 msgid "List Stores"
-msgstr "Lister les magasins"
+msgstr "List Stores"
 
 #: C:/Program Files/Ampps/www//Template/Products/add.ctp:12
 #: Files/Ampps/www//Template/Products/edit.ctp:18
@@ -153,11 +151,11 @@ msgstr "Lister les magasins"
 #: Files/Ampps/www//Template/Users/index.ctp:12
 #: Files/Ampps/www//Template/Users/view.ctp:15
 msgid "New Store"
-msgstr "Nouveau magasin"
+msgstr "New Store"
 
 #: C:/Program Files/Ampps/www//Template/Products/add.ctp:18
 msgid "Add Product"
-msgstr "Ajouter un produit"
+msgstr "Add Product"
 
 #: C:/Program Files/Ampps/www//Template/Products/add.ctp:26
 #: Files/Ampps/www//Template/Products/edit.ctp:32
@@ -166,7 +164,7 @@ msgstr "Ajouter un produit"
 #: Files/Ampps/www//Template/Users/add.ctp:27
 #: Files/Ampps/www//Template/Users/edit.ctp:32
 msgid "Submit"
-msgstr "Soumettre"
+msgstr "Submit"
 
 #: C:/Program Files/Ampps/www//Template/Products/edit.ctp:11
 #: Files/Ampps/www//Template/Products/index.ctp:35
@@ -178,7 +176,7 @@ msgstr "Soumettre"
 #: Files/Ampps/www//Template/Users/index.ctp:41
 #: Files/Ampps/www//Template/Users/view.ctp:64
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "Delete"
 
 #: C:/Program Files/Ampps/www//Template/Products/edit.ctp:13
 #: Files/Ampps/www//Template/Products/index.ctp:35
@@ -193,12 +191,12 @@ msgstr "Supprimer"
 #: Files/Ampps/www//Template/Users/view.ctp:11
 #: Files/Ampps/www//Template/Users/view.ctp:64
 msgid "Are you sure you want to delete # {0}?"
-msgstr "Êtes-vous sûrs de vouloir supprimer # {0}?"
+msgstr "Are you sure you want to delete # {0}?"
 
 #: C:/Program Files/Ampps/www//Template/Products/edit.ctp:24
 #: Files/Ampps/www//Template/Products/view.ctp:10
 msgid "Edit Product"
-msgstr "Modifier le produit"
+msgstr "Edit Product"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:10
 #: Files/Ampps/www//Template/Products/view.ctp:13
@@ -207,11 +205,11 @@ msgstr "Modifier le produit"
 #: Files/Ampps/www//Template/Stores/index.ctp:14
 #: Files/Ampps/www//Template/Stores/view.ctp:17
 msgid "New Product"
-msgstr "Nouveau produit"
+msgstr "New Product"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:16
 msgid "Products"
-msgstr "Produits"
+msgstr "Products"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:33
 #: Files/Ampps/www//Template/Products/view.ctp:62
@@ -220,7 +218,7 @@ msgstr "Produits"
 #: Files/Ampps/www//Template/Users/index.ctp:39
 #: Files/Ampps/www//Template/Users/view.ctp:62
 msgid "View"
-msgstr "Afficher"
+msgstr "View"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:34
 #: Files/Ampps/www//Template/Products/view.ctp:63
@@ -229,31 +227,31 @@ msgstr "Afficher"
 #: Files/Ampps/www//Template/Users/index.ctp:40
 #: Files/Ampps/www//Template/Users/view.ctp:63
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Edit"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:43
 #: Files/Ampps/www//Template/Stores/index.ctp:51
 #: Files/Ampps/www//Template/Users/index.ctp:49
 msgid "first"
-msgstr "premier"
+msgstr "first"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:44
 #: Files/Ampps/www//Template/Stores/index.ctp:52
 #: Files/Ampps/www//Template/Users/index.ctp:50
 msgid "previous"
-msgstr "précédent"
+msgstr "previous"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:46
 #: Files/Ampps/www//Template/Stores/index.ctp:54
 #: Files/Ampps/www//Template/Users/index.ctp:52
 msgid "next"
-msgstr "suivant"
+msgstr "next"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:47
 #: Files/Ampps/www//Template/Stores/index.ctp:55
 #: Files/Ampps/www//Template/Users/index.ctp:53
 msgid "last"
-msgstr "dernier"
+msgstr "last"
 
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:49
 #: Files/Ampps/www//Template/Stores/index.ctp:57
@@ -262,12 +260,12 @@ msgid ""
 "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
 "total"
 msgstr ""
-"Page {{page}} sur  {{pages}}, montrant {{current}} enregistrement(s) "
-"({{count}} au total)"
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:11
 msgid "Delete Product"
-msgstr "Supprimer le produit"
+msgstr "Delete Product"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:22
 #: Files/Ampps/www//Template/Products/view.ctp:44
@@ -275,7 +273,7 @@ msgstr "Supprimer le produit"
 #: Files/Ampps/www//Template/Stores/view.ctp:58
 #: Files/Ampps/www//Template/Users/view.ctp:44
 msgid "Name"
-msgstr "Nom"
+msgstr "Name"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:26
 #: Files/Ampps/www//Template/Products/view.ctp:43
@@ -284,12 +282,12 @@ msgstr "Nom"
 #: Files/Ampps/www//Template/Users/view.ctp:30
 #: Files/Ampps/www//Template/Users/view.ctp:43
 msgid "Id"
-msgstr "Identifiant"
+msgstr "Id"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:30
 #: Files/Ampps/www//Template/Stores/view.ctp:60
 msgid "Price"
-msgstr "Prix"
+msgstr "Price"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:35
 #: Files/Ampps/www//Template/Products/view.ctp:45
@@ -297,34 +295,34 @@ msgstr "Prix"
 #: Files/Ampps/www//Template/Stores/view.ctp:59
 #: Files/Ampps/www//Template/Users/view.ctp:45
 msgid "Description"
-msgstr "Descriptions"
+msgstr "Description"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:39
 msgid "Related Stores"
-msgstr "Magasins reliés"
+msgstr "Related Stores"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:46
 #: Files/Ampps/www//Template/Users/view.ctp:46
 msgid "User Id"
-msgstr "Identifiant utilisateur"
+msgstr "User Id"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:47
 #: Files/Ampps/www//Template/Stores/view.ctp:32
 #: Files/Ampps/www//Template/Users/view.ctp:47
 msgid "Address"
-msgstr "Adresse"
+msgstr "Address"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:48
 #: Files/Ampps/www//Template/Stores/view.ctp:40
 #: Files/Ampps/www//Template/Users/view.ctp:48
 msgid "Created"
-msgstr "Créé"
+msgstr "Created"
 
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:49
 #: Files/Ampps/www//Template/Stores/view.ctp:44
 #: Files/Ampps/www//Template/Users/view.ctp:49
 msgid "Modified"
-msgstr "Modifié"
+msgstr "Modified"
 
 #: C:/Program Files/Ampps/www//Template/Stores/add.ctp:11
 #: Files/Ampps/www//Template/Stores/edit.ctp:17
@@ -334,7 +332,7 @@ msgstr "Modifié"
 #: Files/Ampps/www//Template/Users/edit.ctp:16
 #: Files/Ampps/www//Template/Users/view.ctp:12
 msgid "List Users"
-msgstr "Lister les utilisateurs"
+msgstr "List Users"
 
 #: C:/Program Files/Ampps/www//Template/Stores/add.ctp:12
 #: Files/Ampps/www//Template/Stores/edit.ctp:18
@@ -343,65 +341,65 @@ msgstr "Lister les utilisateurs"
 #: Files/Ampps/www//Template/Users/index.ctp:10
 #: Files/Ampps/www//Template/Users/view.ctp:13
 msgid "New User"
-msgstr "Nouvel utilisateur"
+msgstr "New User"
 
 #: C:/Program Files/Ampps/www//Template/Stores/add.ctp:20
 msgid "Add Store"
-msgstr "Ajouter un magasin"
+msgstr"Add Store"
 
 #: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:26
 #: Files/Ampps/www//Template/Stores/view.ctp:10
 msgid "Edit Store"
-msgstr "Modifier le magain"
+msgstr "Edit Store"
 
 #: C:/Program Files/Ampps/www//Template/Stores/index.ctp:18
 msgid "Stores"
-msgstr "Magasins"
+msgstr "Stores"
 
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:11
 msgid "Delete Store"
-msgstr "Supprimer le magasin"
+msgstr "Delete Store"
 
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:28
 msgid "User"
-msgstr "Utilisateur"
+msgstr "User"
 
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:53
 msgid "Related Products"
-msgstr "Produits reliés"
+msgstr "Related Products"
 
 #: C:/Program Files/Ampps/www//Template/Users/add.ctp:20
 msgid "Register User"
-msgstr "Enrigistrement"
+msgstr "Register User"
 
 #: C:/Program Files/Ampps/www//Template/Users/edit.ctp:24
 #: Files/Ampps/www//Template/Users/view.ctp:10
 msgid "Edit User"
-msgstr "Modifier l'utilisateur"
+msgstr "Edit User"
 
 #: C:/Program Files/Ampps/www//Template/Users/index.ctp:16
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr "Users"
 
 #: C:/Program Files/Ampps/www//Template/Users/login.ctp:15
 msgid "email"
-msgstr "Courriel"
+msgstr "email"
 
 #: C:/Program Files/Ampps/www//Template/Users/login.ctp:16
 msgid "password"
-msgstr "Mot de passe"
+msgstr "password"
 
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:11
 msgid "Delete User"
-msgstr "Supprimer l'utilisateur"
+msgstr "Delete User"
 
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:22
 msgid "Username"
-msgstr "Nom d'utilisateur"
+msgstr "Username"
 
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:26
 msgid "Email"
-msgstr "Courriel"
+msgstr "Email"
 
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:34
 msgid "Type"
@@ -409,53 +407,8 @@ msgstr "Type"
 
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:39
 msgid "Owned stores"
-msgstr "Propriétaire des magasins"
+msgstr "Owned stores"
 
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:70
 msgid "No owned stores"
-msgstr "Propriétaire d'aucun magasin"
-
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:13
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:13
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:13
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:13
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:14
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:13
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:13
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:13
-msgid "You are a regular user"
-msgstr "Vous êtes un utilisateur régulier"
-
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:15
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:15
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:15
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:15
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:15
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:15
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:15
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:15
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:16
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:15
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:15
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:15
-msgid "You are a store manager"
-msgstr "Vous êtes un responsable de magasin"
-
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:17
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:17
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:17
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:17
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:17
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:17
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:17
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:17
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:18
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:17
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:17
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:17
-msgid "You are a store manager"
-msgstr "Vous êtes un administrateur"
+msgstr "No owned stores"

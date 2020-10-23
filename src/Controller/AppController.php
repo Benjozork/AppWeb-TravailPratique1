@@ -49,6 +49,7 @@ class AppController extends Controller
         $this->loadComponent('Flash');
 
         $this->loadComponent('Auth', [
+            'authorize'=> 'Controller',
             'authenticate' => [
                 'Form' => [
                     'fields' => [
@@ -71,6 +72,20 @@ class AppController extends Controller
 
         // i18n
         I18n::setLocale($this->request->getSession()->read('Config.language'));
+    }
+
+//    public function beforeFilter(Event $event)
+//    {
+//        $id = $this->Auth->user('id'); //Using the session's user id is fine because it doesn't change/update
+//        $user_data = $this->Users->find()->where(['id' => $id]);
+//        $utype = $user_data['User']['type'];
+//        $this->set('utype', $utype);
+//    }
+
+    public function isAuthorized($user)
+    {
+        // By default deny access.
+        return false;
     }
 
     public function changeLang($lang = 'en_US') {

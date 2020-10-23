@@ -1,7 +1,7 @@
 <?php
 /**
  * @var \App\View\AppView $this
- * @var \App\Model\Entity\Store $store
+ * @var \App\Model\Entity\File $file
  */
 ?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
@@ -18,19 +18,7 @@
             endif; ?>
         </span>
 
-        <!-- Ne pas afficher si pas admin -->
-        <?php if ($this->request->getSession()->read("Auth.User.type") == 3): ?>
-            <li><?= $this->Form->postLink(
-                    __('Delete'),
-                    ['action' => 'delete', $store->id],
-                    ['confirm' => __('Are you sure you want to delete # {0}?', $store->id)]
-                )
-                ?></li>
-            <li><?= $this->Html->link(__('New Store'), ['action' => 'add']) ?></li>
-            <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-        <?php endif; ?>
-
-        <li><?= $this->Html->link(__('List Stores'), ['controller' => 'Stores', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('List Files'), ['action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('List Products'), ['controller' => 'Products', 'action' => 'index']) ?></li>
 
         <!-- Ne pas afficher si pas propriétaire -->
@@ -41,18 +29,15 @@
         <?php endif; ?>
     </ul>
 </nav>
-<div class="stores form large-9 medium-8 columns content">
-    <?= $this->Form->create($store) ?>
+<div class="files form large-9 medium-8 columns content">
+    <?= $this->Form->create($file, ['type' => 'file']) ?>
     <fieldset>
-        <legend><?= __('Edit Store') ?></legend>
+        <legend><?= __('Add File') ?></legend>
         <?php
-            echo $this->Form->control('name');
-            echo $this->Form->control('description');
-            echo $this->Form->control('user_id', ['options' => $users]);
-            echo $this->Form->control('address');
+            echo $this->Form->input('file', ['type' => 'file', 'class' => 'form-control']);
             echo $this->Form->control('products._ids', ['options' => $products]);
         ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Upload File'), ['type'=>'submit', 'class' => 'form-controlbtn btn-default']) ?>
     <?= $this->Form->end() ?>
 </div>

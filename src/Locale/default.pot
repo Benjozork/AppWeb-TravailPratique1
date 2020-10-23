@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-10-21 22:24+0000\n"
+"POT-Creation-Date: 2020-10-22 03:26+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,39 +14,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: C:/Program Files/Ampps/www//Controller/ProductsController.php:54
-#: C:/Program Files/Ampps/www//Controller/ProductsController.php:79
+#: C:/Program Files/Ampps/www//Controller/ProductsController.php:65
+#: C:/Program Files/Ampps/www//Controller/ProductsController.php:90
 msgid "The product has been saved."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/ProductsController.php:58
-#: C:/Program Files/Ampps/www//Controller/ProductsController.php:83
+#: C:/Program Files/Ampps/www//Controller/ProductsController.php:69
+#: C:/Program Files/Ampps/www//Controller/ProductsController.php:94
 msgid "The product could not be saved. Please, try again."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/ProductsController.php:101
+#: C:/Program Files/Ampps/www//Controller/ProductsController.php:112
 msgid "The product has been deleted."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/ProductsController.php:103
+#: C:/Program Files/Ampps/www//Controller/ProductsController.php:114
 msgid "The product could not be deleted. Please, try again."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/StoresController.php:57
-#: C:/Program Files/Ampps/www//Controller/StoresController.php:83
+#: C:/Program Files/Ampps/www//Controller/StoresController.php:76
+#: C:/Program Files/Ampps/www//Controller/StoresController.php:102
 msgid "The store has been saved."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/StoresController.php:61
-#: C:/Program Files/Ampps/www//Controller/StoresController.php:87
+#: C:/Program Files/Ampps/www//Controller/StoresController.php:80
+#: C:/Program Files/Ampps/www//Controller/StoresController.php:106
 msgid "The store could not be saved. Please, try again."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/StoresController.php:106
+#: C:/Program Files/Ampps/www//Controller/StoresController.php:125
 msgid "The store has been deleted."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/StoresController.php:108
+#: C:/Program Files/Ampps/www//Controller/StoresController.php:127
 msgid "The store could not be deleted. Please, try again."
 msgstr ""
 
@@ -68,11 +68,7 @@ msgstr ""
 msgid "The user could not be deleted. Please, try again."
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Controller/UsersController.php:143
-msgid "Incorrect e-mail or password"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Controller/UsersController.php:154
+#: C:/Program Files/Ampps/www//Controller/UsersController.php:152
 msgid "You are now logged out"
 msgstr ""
 
@@ -82,7 +78,7 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Layout/default.ctp:52
+#: C:/Program Files/Ampps/www//Template/Layout/default.ctp:53
 msgid "Logout"
 msgstr ""
 
@@ -97,314 +93,345 @@ msgstr ""
 #: C:/Program Files/Ampps/www//Template/Products/add.ctp:9
 #: C:/Program Files/Ampps/www//Template/Products/edit.ctp:9
 #: C:/Program Files/Ampps/www//Template/Products/index.ctp:9
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:23
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:44
 #: C:/Program Files/Ampps/www//Template/Products/view.ctp:9
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:50
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:68
 #: C:/Program Files/Ampps/www//Template/Stores/add.ctp:9
 #: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:9
 #: C:/Program Files/Ampps/www//Template/Stores/index.ctp:9
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:28
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:47
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:9
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:61
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:77
 #: C:/Program Files/Ampps/www//Template/Users/add.ctp:10
 #: C:/Program Files/Ampps/www//Template/Users/edit.ctp:9
 #: C:/Program Files/Ampps/www//Template/Users/index.ctp:9
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:26
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:37
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:9
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:50
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:61
 msgid "Actions"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:10
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:16
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:12
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:13
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:13
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:13
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:13
 #: C:/Program Files/Ampps/www//Template/Stores/add.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:19
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:13
 #: C:/Program Files/Ampps/www//Template/Stores/index.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:16
-msgid "List Products"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:11
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:17
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:11
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:14
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:10
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:16
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:12
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:12
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:17
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:11
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:14
-msgid "List Stores"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:12
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:18
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:12
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:15
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:10
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:13
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:13
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:18
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:12
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:14
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:13
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:13
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:13
+msgid "You are a regular user"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:15
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:15
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:15
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:15
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:15
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:15
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:15
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:15
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:16
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:15
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:15
 #: C:/Program Files/Ampps/www//Template/Users/view.ctp:15
+msgid "You are a store manager"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:17
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:17
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:17
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:17
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:17
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:17
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:17
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:17
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:18
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:17
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:17
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:17
+msgid "You are an admin"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:23
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:29
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:23
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:23
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:23
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:29
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:23
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:23
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:24
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:29
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:23
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:26
 msgid "New Store"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:18
-msgid "Add Product"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/add.ctp:26
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:32
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:29
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:35
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:27
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:32
-msgid "Submit"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:11
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:35
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:64
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:11
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:43
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:72
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:11
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:41
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:64
-msgid "Delete"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:13
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:35
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:11
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:64
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:43
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:11
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:72
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:13
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:41
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:11
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:64
-msgid "Are you sure you want to delete # {0}?"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:24
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:10
-msgid "Edit Product"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:10
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:13
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:14
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:20
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:14
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:17
-msgid "New Product"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:16
-msgid "Products"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:33
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:62
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:41
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:70
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:39
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:62
-msgid "View"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:34
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:63
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:42
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:71
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:40
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:63
-msgid "Edit"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:43
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:51
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:49
-msgid "first"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:44
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:52
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:50
-msgid "previous"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:46
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:54
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:52
-msgid "next"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:47
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:55
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:53
-msgid "last"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/index.ctp:49
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:57
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:55
-msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:11
-msgid "Delete Product"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:22
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:44
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:24
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:30
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:24
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:24
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:24
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:30
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:24
 #: C:/Program Files/Ampps/www//Template/Stores/view.ctp:24
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:58
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:44
-msgid "Name"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:26
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:43
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:36
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:57
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:30
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:43
-msgid "Id"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:30
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:60
-msgid "Price"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:35
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:45
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:49
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:59
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:45
-msgid "Description"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:39
-msgid "Related Stores"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:46
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:46
-msgid "User Id"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:47
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:32
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:47
-msgid "Address"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:48
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:40
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:48
-msgid "Created"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Products/view.ctp:49
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:44
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:49
-msgid "Modified"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:11
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:17
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:11
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:14
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:11
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:16
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:12
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:22
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:27
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:23
 msgid "List Users"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:12
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:18
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:12
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:15
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:10
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:13
-msgid "New User"
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:27
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:33
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:27
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:27
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:27
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:33
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:27
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:27
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:23
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:28
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:22
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:25
+msgid "List Stores"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:20
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:28
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:34
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:28
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:28
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:28
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:34
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:28
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:28
+msgid "List Products"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:32
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:38
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:32
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:32
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:32
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:38
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:32
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:32
+msgid "New Product"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:39
+msgid "Add Product"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/add.ctp:47
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:53
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:48
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:54
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:38
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:43
+msgid "Submit"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:24
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:56
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:82
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:24
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:62
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:88
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:22
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:52
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:75
+msgid "Delete"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:26
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:56
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:82
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:26
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:62
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:88
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:24
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:52
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:22
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:75
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/edit.ctp:45
+msgid "Edit Product"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:37
+msgid "Products"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:54
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:80
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:60
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:86
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:50
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:73
+msgid "View"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:55
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:81
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:61
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:87
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:51
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:74
+msgid "Edit"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:64
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:70
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:60
+msgid "first"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:65
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:71
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:61
+msgid "previous"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:67
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:73
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:63
+msgid "next"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:68
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:74
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:64
+msgid "last"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/index.ctp:70
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:76
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:66
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:40
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:62
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:40
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:74
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:55
+msgid "Name"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:44
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:61
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:52
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:73
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:41
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:54
+msgid "Id"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:48
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:76
+msgid "Price"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:53
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:63
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:65
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:75
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:56
+msgid "Description"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:57
+msgid "Related Stores"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:64
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:57
+msgid "User Id"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:65
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:48
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:58
+msgid "Address"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:66
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:56
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:59
+msgid "Created"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Products/view.ctp:67
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:60
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:60
+msgid "Modified"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Stores/add.ctp:39
 msgid "Add Store"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:26
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:10
+#: C:/Program Files/Ampps/www//Template/Stores/edit.ctp:45
 msgid "Edit Store"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:18
+#: C:/Program Files/Ampps/www//Template/Stores/index.ctp:37
 msgid "Stores"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:11
-msgid "Delete Store"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:28
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:44
 msgid "User"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:53
+#: C:/Program Files/Ampps/www//Template/Stores/view.ctp:69
 msgid "Related Products"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/add.ctp:20
+#: C:/Program Files/Ampps/www//Template/Users/add.ctp:31
 msgid "Register User"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:24
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:10
+#: C:/Program Files/Ampps/www//Template/Users/edit.ctp:35
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:21
 msgid "Edit User"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/index.ctp:16
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:21
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:24
+msgid "New User"
+msgstr ""
+
+#: C:/Program Files/Ampps/www//Template/Users/index.ctp:27
 msgid "Users"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/login.ctp:15
-msgid "email"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Users/login.ctp:16
-msgid "password"
-msgstr ""
-
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:11
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:22
 msgid "Delete User"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:22
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:33
 msgid "Username"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:26
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:37
 msgid "Email"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:34
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:45
 msgid "Type"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:39
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:50
 msgid "Owned stores"
 msgstr ""
 
-#: C:/Program Files/Ampps/www//Template/Users/view.ctp:70
+#: C:/Program Files/Ampps/www//Template/Users/view.ctp:81
 msgid "No owned stores"
 msgstr ""
 

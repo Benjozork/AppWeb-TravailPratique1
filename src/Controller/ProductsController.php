@@ -12,6 +12,17 @@ use App\Controller\AppController;
  */
 class ProductsController extends AppController
 {
+
+    public function isAuthorized($user)
+    {
+        $action = $this->request->getParam('action');
+
+        if ($action == 'add') {
+            // New pas autoriser si pas admin
+            return $user['type'] == 3;
+        } else return true;
+    }
+
     /**
      * Index method
      *
@@ -57,6 +68,7 @@ class ProductsController extends AppController
             }
             $this->Flash->error(__('The product could not be saved. Please, try again.'));
         }
+
         $stores = $this->Products->Stores->find('list', ['limit' => 200]);
         $this->set(compact('product', 'stores'));
     }

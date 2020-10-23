@@ -4,16 +4,18 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Product Entity
+ * File Entity
  *
  * @property int $id
  * @property string $name
- * @property string $description
- * @property float $price
+ * @property string $path
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
+ * @property bool $status
  *
- * @property \App\Model\Entity\Store[] $stores
+ * @property \App\Model\Entity\Product[] $products
  */
-class Product extends Entity
+class File extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -26,9 +28,10 @@ class Product extends Entity
      */
     protected $_accessible = [
         'name' => true,
-        'description' => true,
-        'price' => true,
-        'stores' => true,
-        'files' => true
+        'path' => true,
+        'created' => true,
+        'modified' => true,
+        'status' => true,
+        'products' => true,
     ];
 }
