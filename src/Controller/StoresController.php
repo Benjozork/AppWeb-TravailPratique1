@@ -72,6 +72,7 @@ class StoresController extends AppController
         $store = $this->Stores->newEntity();
         if ($this->request->is('post')) {
             $store = $this->Stores->patchEntity($store, $this->request->getData());
+
             if ($this->Stores->save($store)) {
                 $this->Flash->success(__('The store has been saved.'));
 

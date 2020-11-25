@@ -4,20 +4,14 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Store Entity
+ * StoreType Entity
  *
  * @property int $id
  * @property string $name
- * @property string $description
- * @property int $user_id
- * @property string $address
- * @property \Cake\I18n\FrozenTime $created
- * @property \Cake\I18n\FrozenTime $modified
  *
- * @property \App\Model\Entity\User $user
- * @property \App\Model\Entity\Product[] $products
+ * @property \App\Model\Entity\Store[] $stores
  */
-class Store extends Entity
+class StoreType extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -30,13 +24,5 @@ class Store extends Entity
      */
     protected $_accessible = [
         'name' => true,
-        'description' => true,
-        'user_id' => true,
-        'address' => true,
-        'store_type_id' => true,
-        'created' => true,
-        'modified' => true,
-        'user' => true,
-        'products' => true,
     ];
 }

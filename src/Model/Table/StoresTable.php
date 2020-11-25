@@ -51,6 +51,12 @@ class StoresTable extends Table
             'joinTable' => 'products_stores',
         ]);
 
+        $this->belongsTo('StoreTypes', [
+            'foreignKey' => 'store_type_id',
+            'joinType' => 'INNER',
+            'propertyName' => 'store_type',
+        ]);
+
         $this->addBehavior('Translate', ['fields' => ['description']]);
     }
 
