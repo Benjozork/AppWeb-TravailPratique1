@@ -69,7 +69,7 @@ class FilesController extends AppController
         if ($this->request->is('post')) {
             if (!empty($this->request->getData()['file']['name'])) {
                 $fileName = $this->request->getData()['file']['name'];
-                $uploadPath = 'webroot/img/';
+                $uploadPath = WWW_ROOT . '/img/';
                 $uploadFile = $uploadPath . $fileName;
 
                 if (move_uploaded_file($this->request->getData()['file']['tmp_name'], $uploadFile)) {
