@@ -103,6 +103,42 @@ class FilesController extends AppController
         $this->set(compact('file', 'products'));
     }
 
+    public function drop()
+    {
+        $this->viewBuilder()->setTemplate('add');
+
+        if ($this->request->is(array('post', 'put'))) {
+            if (!empty($_FILES)) {
+                $fileName = $_FILES['file']['name'];
+                $file_full = WWW_ROOT . 'img/';
+                $file = basename($fileName);
+                $ext = pathinfo($file, PATHINFO_EXTENSION);
+                $file_temp_name = $_FILES['file']['tmp_name'];
+                $new_file_name = time() . '.' . $ext;
+
+                if (move_uploaded_file($file_temp_name, $file_full . $new_file_name)) {
+                    $uploadData = $this->Files->newEntity();
+                    $uploadData->name = $fileName;
+                    $uploadData->path = $file_full;
+                    $uploadData->created = date("Y-m-d H:i:s");
+                    $uploadData->modified = date("Y-m-d H:i:s");
+
+                    if ($this->Files->save($uploadData)) {
+                        $this->Flash->success(__('File has been uploaded and inserted successfully.'));
+                    } else {
+                        $this->Flash->error(__('Unable to save uploaded file, please try again.'));
+                    }
+                } else {
+                    $this->Flash->error(__('Unable to process uploaded file, please try again.'));
+                }
+            }
+        }
+    }
+
+    private function createFile() {
+
+    }
+
     /**
      * Edit method
      *

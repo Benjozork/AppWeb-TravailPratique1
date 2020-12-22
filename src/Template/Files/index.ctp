@@ -5,8 +5,30 @@
  */
 $this->extend('../Layout/TwitterBootstrap/dashboard');
 ?>
+
+<script>
+    const urlToredirect = '<?= $this->Url->build(["controller" => "Files", "action" => "index"]) ?>';
+</script>
+
+<?= $this->Html->css('Files/dropzone.css') ?>
+<?= $this->Html->script('Files/dropzone.js') ?>
+
 <div class="files index large-9 medium-8 columns content">
     <h3><?= __('Files') ?></h3>
+
+    <div class="image_upload_div">
+        <?php echo $this->Form->create(
+            'image',
+            [
+                'url'=> ['controller' => 'Files', 'action' => 'drop'],
+                'method' => 'post',
+                'id' =>'my-awesome-dropzone', 'class' => 'dropzone', 'type' => 'file', 'enctype' => 'multipart/form-data', 'autocomplete' => 'off',
+            ]
+        );?>
+
+        <?php echo $this->Form->end();?>
+    </div>
+
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>

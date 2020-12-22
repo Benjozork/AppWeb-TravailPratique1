@@ -4,7 +4,7 @@
  * @var \App\Model\Entity\File $file
  * @var \App\Model\Entity\Product[] $products
  */
-$this->extend('../Layout/TwitterBootstrap/dashboard');
+$this->extend('../../Layout/TwitterBootstrap/dashboard');
 ?>
 <div class="files form large-9 medium-8 columns content">
     <?= $this->Form->create($file, ['type' => 'file']) ?>
