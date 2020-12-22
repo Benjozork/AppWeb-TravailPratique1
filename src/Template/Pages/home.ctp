@@ -31,6 +31,10 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
 
     <p>420-5b7 MO Applications internet.<br/>Automne 2020, Collège Montmorency.</p>
 
+    <a href="https://github.com/Benjozork/AppWeb-TravailPratique1">
+        <b>https://github.com/Benjozork/AppWeb-TravailPratique1</b>
+    </a>
+
     <p>
         <em>Créer un compte</em><br/>
 
