@@ -38,7 +38,7 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
     <p>
         <em>Créer un compte</em><br/>
 
-        Pour créer un compte, il suffit de cliquer sur le bouton "S'enrigistrer" sur la barre du haut. Il faut ensuite remplir les informations pertinentes pour créer son compte.
+        Pour créer un compte, il suffit de cliquer sur le bouton "S'enrigistrer" sur la barre du haut. Il faut ensuite remplir les informations pertinentes pour créer son compte.<br/>
 
         <b>Si vous êtes propriétaire de magasin ou administrateur, un webmestre devra changer votre status dans la base de données.</b>
     </p>
@@ -52,7 +52,7 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
     <p>
         <em>Gérer les magasins</em><br/>
 
-        Il est possible de créer, supprimer ou éditer des magasins depuis la barre latérale. Vous devez posséder les accès d'administrateur (type 3) pour pouvoir effectuer ces actions.
+        Il est possible de créer, supprimer ou éditer des magasins depuis la barre latérale. Vous devez posséder les accès d'administrateur (type 3) pour pouvoir effectuer ces actions.<br/>
 
         Il est possible de changer le type de magasin d'un magasin.
     </p>
@@ -70,6 +70,14 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
     </p>
 
     <p>
+        <em>Gérer les images de produits en glisser déposer</em><br/>
+
+        Il est possible de téléverser, supprimer ou éditer des images de produits depuis l'index en glisser-déposer. Vous devez posséder les accès de propriétaire (type 2 ou plus) pour pouvoir effectuer ces actions.<br/>
+
+        Simplement glisser une image sur la zone située au haut de la page "index".
+    </p>
+
+    <p>
         <em>Visionner les magasins</em><br/>
 
         Il est possible de visionner les magasins et leurs produits vendus pour chaque utilisateur.
@@ -78,9 +86,30 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
     <p>
         <em>Visionner les produits</em><br/>
 
-        Il est possible de visionner les produits vendus pour chaque utilisateur.
+        Il est possible de visionner les produits vendus pour chaque utilisateur.<br/>
 
         Il est aussi possible de visionner les images d'un produit (non fonctionnel dans la remise).
+    </p>
+
+    <p>
+        <em>Visionner les types de magasins</em><br/>
+
+        Il est possible de visionner les types de magasins existants si l'on est administrateur.
+    </p>
+
+    <p>
+        <em>Utiliser l'application CRUD des types de magasin</em><br/>
+
+        L'application CRUD des types de magasins permet les opérations suivantes:<br/>
+
+        * Visionner les types de magasin<br/>
+          * Voir le tableau présent<br/>
+        * Supprimer un magasin (connexion require)<br/>
+          * Cliquer sur le lien "Supprimer" à côté du type de magasin<br/>
+        * Renommer un type de magasin (connexion require)<br/>
+          * Cliquer sur le lien "modifier" à côté du magasin<br/>
+        * Changer son mot de passe (connexion require)<br/>
+         * Cliquer sur le bouton "Changer" dans la section "Changer son mot de passe"<br/>
     </p>
 
     <img src="img/diagram.PNG" alt="Diagramme de la base de données.">

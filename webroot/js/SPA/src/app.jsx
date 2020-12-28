@@ -162,7 +162,7 @@ function App() {
                                     <input id="input-new-password" className="form-control" type="password" placeholder="Nouveau mot de passe" />
                                 </div>
                                 <div className="form-row">
-                                    <button type="button" className="btn btn-success" onClick={() => setChangePassword()}>Créer</button>
+                                    <button type="button" className="btn btn-success" onClick={() => setChangePassword()}>Changer</button>
                                 </div>
                             </form>
                         </>}

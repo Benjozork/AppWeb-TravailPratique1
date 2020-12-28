@@ -10,6 +10,8 @@ $this->start('tb_body_start');
 <!-- Sidebar -->
 <?php $this->start("tb_actions"); ?>
     <!-- Ne pas afficher si pas admin -->
+    <li class="nav-item"><?= $this->Html->link(__('About'), ['controller' => 'Pages', 'action' => 'home'], ['class' => 'nav-link text-bold']) ?></li>
+
     <?php if ($this->request->getSession()->read("Auth.User.type") == 3): ?>
         <li class="nav-item"><?= $this->Html->link(__('New Store'), ['action' => 'add'], ['class' => 'nav-link']) ?></li>
         <li class="nav-item"><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index'], ['class' => 'nav-link']) ?></li>
@@ -23,6 +25,7 @@ $this->start('tb_body_start');
         <li class="nav-item"><?= $this->Html->link(__('New Product'), ['controller' => 'Products', 'action' => 'add'], ['class' => 'nav-link']) ?></li>
         <li class="nav-item"><?= $this->Html->link(__('New product image'), ['controller' => 'Files',  'action' => 'add'], ['class' => 'nav-link']) ?> </li>
         <li class="nav-item"><?= $this->Html->link(__('List Product Images'), ['controller' => 'Files', 'action' => 'index'], ['class' => 'nav-link']) ?></li>
+        <li class="nav-item"><?= $this->Html->link(__('List Store Types'), ['controller' => 'StoreTypes', 'action' => 'index', 'prefix' => 'api'], ['class' => 'nav-link']) ?></li>
     <?php endif; ?>
 <?php $this->end(); ?>
 
