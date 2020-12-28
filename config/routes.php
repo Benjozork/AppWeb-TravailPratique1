@@ -49,6 +49,8 @@ Router::prefix('api', function (RouteBuilder $routes) {
     Router::extensions(['json', 'xml']);
 
     $routes->resources('StoreTypes');
+
+    $routes->fallbacks(DashedRoute::class);
 });
 
 Router::scope('/', function (RouteBuilder $routes) {
