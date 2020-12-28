@@ -40,34 +40,6 @@ $this->start('tb_body_start');
         </button>
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto px-3">
-                <?php if (is_null($this->request->getSession()->read("Auth.User.username"))): ?>
-                    <li class="nav-item text-nowrap">
-                        <?= $this->Html->link(__('Login'), ['controller' => "Users", 'action' => "login", 'prefix' => false], ['class' => 'nav-link', 'escape' => false]) ?>
-                    </li>
-                    <li class="nav-item text-nowrap">
-                        <?= $this->Html->link(__('Register'), ['controller' => "Users", 'action' => "add", 'prefix' => false], ['class' => 'nav-link', 'escape' => false]) ?>
-                    </li>
-                <?php else: ?>
-                    <li class="nav-item text-nowrap">
-                        <?= $this->Html->link(__('Logout'), ['controller' => "Users", 'action' => "logout", 'prefix' => false], ['class' => 'nav-link', 'escape' => false]) ?>
-                    </li>
-                <?php endif; ?>
-
-                <?php if ($this->Session->read('Config.language') == 'en' || is_null($this->Session->read('Config.language'))): ?>
-                    <li class="nav-item text-nowrap">
-                        <?= $this->Html->link('Français', ['action' => 'changeLang', 'fr'], ['class' => 'nav-link', 'escape' => false]) ?>
-                    </li>
-                <?php elseif ($this->Session->read('Config.language') == 'fr'):; ?>
-                    <li class="nav-item text-nowrap">
-                        <?= $this->Html->link('Español', ['action' => 'changeLang', 'es'], ['class' => 'nav-link', 'escape' => false]) ?>
-                    </li>
-                <?php elseif ($this->Session->read('Config.language') == 'es'):; ?>
-                    <li class="nav-item text-nowrap">
-                        <?= $this->Html->link('English', ['action' => 'changeLang', 'en'], ['class' => 'nav-link', 'escape' => false]) ?>
-                    </li>
-                <?php endif; ?>
-            </ul>
         </div>
     </nav>
 

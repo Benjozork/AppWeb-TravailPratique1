@@ -20,6 +20,15 @@ class AppController extends Controller
                         'username' => 'email',
                         'password' => 'password'
                     ]
+                ],
+                'ADmad/JwtAuth.Jwt' => [
+                    'parameter' => 'token',
+                    'userModel' => 'Users',
+                    'scope' => ['Users.active' => 1],
+                    'fields' => [
+                        'username' => 'id'
+                    ],
+                    'queryDatasource' => true
                 ]
             ],
             'loginAction' => [

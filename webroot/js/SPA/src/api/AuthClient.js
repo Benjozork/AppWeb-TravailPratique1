@@ -2,22 +2,16 @@ const request = {
     headers: new Headers({
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
         'Accept': 'application/json',
-        'Authorization': 'Bearer ' + localStorage.getItem("token")
+        'X-Requested-With': 'XMLHttpRequest'
     })
 };
 
 const toStatus = async response => response.status === 200;
 
-export async function getStoreTypes() {
-    const url = '/api/store_types';
+export async function login(email, password) {
+    const url = '/api/users/token';
 
-    return await (await fetch(url, request)).json();
-}
-
-export async function createStoreType(name) {
-    const url = `/api/store_types`;
-
-    const details = { name };
+    const details = { email, password };
 
     let formBody = [];
     for (const property in details) {
@@ -27,11 +21,16 @@ export async function createStoreType(name) {
     }
     formBody = formBody.join("&");
 
-    return await fetch(url, { ...request, method: 'POST', body: formBody }).then(toStatus);
+    return (await fetch(url, {...request, method: 'POST', body: formBody})).json().then(response => {
+        localStorage.setItem('token', response.data.token);
+        localStorage.setItem('id', response.data.id);
+    });
 }
 
-export async function editStoreType(id, name) {
-    const url = `/api/store_types/${id}`;
+export async function changePassword(newPassword) {
+    const url = '/api/users/' + localStorage.getItem('id');
+
+    const details = { password: newPassword };
 
     let formBody = [];
     for (const property in details) {
@@ -41,11 +40,9 @@ export async function editStoreType(id, name) {
     }
     formBody = formBody.join("&");
 
-    return await fetch(url, { ...request, method: 'PUT', body: formBody }).then(toStatus);
+    return fetch(url, {...request, method: 'PATCH', body: formBody}).then(toStatus);
 }
 
-export async function deleteStoreType(id) {
-    const url = `/api/store_types/${id}`;
-
-    return fetch(url, { ...request, method: 'delete' }).then(toStatus);
+export function logout() {
+    localStorage.removeItem('token');
 }

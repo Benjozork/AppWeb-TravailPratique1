@@ -16,16 +16,16 @@ class StoreTypesController extends AppController
         $this->loadComponent('RequestHandler');
     }
 
-    public function index()
+    public function isAuthorized($user): bool
     {
-        $storeTypes = $this->StoreTypes->find('all');
-        $this->set([
-            'storeTypes' => $storeTypes,
-            '_serialize' => 'storeTypes'
-        ]);
+        $type = $user['type'];
+        $action = $this->request->getParam('action');
+
+        return $action != 'view' ? ($type == 3) : false;
     }
 
-    public function bruh() {
+    public function index()
+    {
         $storeTypes = $this->StoreTypes->find('all');
         $this->set([
             'storeTypes' => $storeTypes,
